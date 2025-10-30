@@ -49,6 +49,10 @@ if else(userGuess==rndNumber && attempts==5){//Caleb
   Console.WriteLine(" Five guesses you really are just passing this game. Better luck next time. ");
 break;
 }
+if else(userGuess==rndNumber && attempt<5){//Camryn If more then 5 message
+Console.WriteLine("Wow if I'm being honest you kinda suck at this or are REALLY unlucky :(")//Camryn Message for attempts above 5
+break;
+}
 }
 }
 }

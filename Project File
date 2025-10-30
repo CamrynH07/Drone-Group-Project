@@ -5,6 +5,7 @@ namespace ProjectFile
 {
 static void Main(string[] args)
 {
+int userGuess;
 Random rnd = new Random();//Camryn Creating a random string
 int rndNumber = rnd.Next(1,100);//Camryn Setting the random string to be between 1 and 100
 Random rnd = new Random();

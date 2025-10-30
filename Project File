@@ -21,7 +21,7 @@ while (true){
       userInput = Console.ReadLine().Trim(); // } Mitchell
       attempts++;
 
-      if(userInput < rndNumber){
+      if(userGuess < rndNumber){ //Mateo
         Console.WriteLine("Your guess is too low. Guess Higher");
       }
   }

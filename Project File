@@ -1,5 +1,6 @@
 using System;
-Random = Console.ReadLine()//Camryn
+Random rnd = new Random()
+int rndNumber 
 namespace ProjectFile
 {
   class Program

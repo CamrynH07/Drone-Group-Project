@@ -20,13 +20,13 @@ while (true){
       userInput = Console.ReadLine().Trim(); // } Mitchell
       attempts++;
 
-      if(userGuess < rndNumber){ //Mateo
-        Console.WriteLine("Your guess is too low. Guess Higher");
-      }
   }
 if (UserGuess > RandomNumber) //Ronald
 {
 Console.WriteLine("Your guess is too high!");
+}
+if(userGuess < rndNumber){ //Mateo
+        Console.WriteLine("Your guess is too low. Guess Higher");
 }
 
 if else(userGuess==rndNumber && attempts==1){ //Caleb

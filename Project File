@@ -25,6 +25,11 @@ while (true){
         Console.WriteLine("Your guess is too low. Guess Higher");
       }
   }
+if (UserGuess > RandomNumber) //Ronald
+{
+Console.WriteLine("Your guess is too high!");
+}
+
 if else(userInput==rndNumber && attempts==1){ //Caleb
   Console.WriteLine("Congrats you got it right, and in one guess. Wow your either super lucky, or did you possibly cheat.")
 break;

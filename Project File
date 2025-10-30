@@ -9,6 +9,15 @@ static void Main(string[] args)
 Random r = new Random();
 
 int attempts = 0;
+
+userinput = Console.ReadLine() //Mitchell {
+while (!int.TryParse(userInput, out userGuess))
+attempts++;
+{
+    Console.WriteLine("Invalid input. Please try entering a valid number.");
+    userInput = Console.ReadLine().Trim(); // } Mitchell
+    attempts++;
+}
 }
 }
 }

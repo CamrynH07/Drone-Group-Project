@@ -12,7 +12,7 @@ Random rnd = new Random();
 int attempts = 0;
 
 while (true){
-  userinput = Console.ReadLine() //Mitchell {
+  string userinput = Console.ReadLine() //Mitchell {
   while (!int.TryParse(userInput, out userGuess))
   attempts++;
   {

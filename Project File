@@ -19,6 +19,10 @@ while (true){
       Console.WriteLine("Invalid input. Please try entering a valid number.");
       userInput = Console.ReadLine().Trim(); // } Mitchell
       attempts++;
+
+      if(userInput < rndNumber){
+        Console.WriteLine("Your guess is too low. Guess Higher");
+      }
   }
 if else(userInput==rndNumber && attempts==1){ //Caleb
   Console.WriteLine("Congrats you got it right, and in one guess. Wow your either super lucky, or did you possibly cheat.")

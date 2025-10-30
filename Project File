@@ -11,7 +11,8 @@ Random rnd = new Random();
 
 int attempts = 0;
 
-userinput = Console.ReadLine() //Mitchell {
+while (true){
+  userinput = Console.ReadLine() //Mitchell {
   while (!int.TryParse(userInput, out userGuess))
   attempts++;
   {
@@ -20,13 +21,13 @@ userinput = Console.ReadLine() //Mitchell {
       attempts++;
   }
 if else(userInput==rndNumber && attempts==1){
-Console.WriteLine("Congrats you got it right, and in one guess. Wow your either super lucky, or did you possibly cheat.")
+  Console.WriteLine("Congrats you got it right, and in one guess. Wow your either super lucky, or did you possibly cheat.")
 }
 if else(userInput==rndNumber && attempts==2){
-Console.WriteLine("Congrats you got it right. You only did it in two guesses.Not as good as one, but still great")
+  Console.WriteLine("Congrats you got it right. You only did it in two guesses.Not as good as one, but still great")
 }
 if else(userInput==rndNumber && attempts==3){
-Console.WriteLine("Three guesses is still lucky. Esceially with how many numbers you had to guess from.")
+  Console.WriteLine("Three guesses is still lucky. Esceially with how many numbers you had to guess from.")
 }
 }//while
 }

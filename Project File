@@ -1,5 +1,5 @@
 using System;
-
+Random
 namespace ProjectFile
 {
   class Program

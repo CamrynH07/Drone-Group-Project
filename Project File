@@ -1,12 +1,12 @@
 using System;
-Random rnd = new Random();//Camryn Creating a random string
-int rndNumber = rnd.Next(1,100);//Camryn Setting the random string to be between 1 and 100
 namespace ProjectFile
 {
   class Program
 {
 static void Main(string[] args)
 {
+Random rnd = new Random();//Camryn Creating a random string
+int rndNumber = rnd.Next(1,100);//Camryn Setting the random string to be between 1 and 100
 Random rnd = new Random();
 
 int attempts = 0;

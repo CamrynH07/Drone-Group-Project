@@ -20,15 +20,17 @@ while (true){
       userInput = Console.ReadLine().Trim(); // } Mitchell
       attempts++;
   }
-if else(userInput==rndNumber && attempts==1){
+if else(userInput==rndNumber && attempts==1){ //Caleb
   Console.WriteLine("Congrats you got it right, and in one guess. Wow your either super lucky, or did you possibly cheat.")
+break;
 }
-if else(userInput==rndNumber && attempts==2){
-  Console.WriteLine("Congrats you got it right. You only did it in two guesses.Not as good as one, but still great")
+if else(userInput==rndNumber && attempts==2){//Caleb
+  Console.WriteLine("Congrats you got it right. You only did it in two guesses.Not as good as one, but still great");
+break;
 }
-if else(userInput==rndNumber && attempts==3){
-  Console.WriteLine("Three guesses is still lucky. Esceially with how many numbers you had to guess from.")
-}
+if else(userInput==rndNumber && attempts==3){Caleb
+  Console.WriteLine("Three guesses is still lucky. Esceially with how many numbers you had to guess from.");
+break;
 }//while
 }
 }

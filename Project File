@@ -6,7 +6,7 @@ namespace ProjectFile
 {
 static void Main(string[] args)
 {
-.....
+Random random = new Random();
 }
 }
 }

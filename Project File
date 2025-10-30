@@ -29,23 +29,23 @@ if(userGuess < rndNumber){ //Mateo
         Console.WriteLine("Your guess is too low. Guess Higher");
 }
 
-if else(userGuess==rndNumber && attempts==1){ //Caleb
+if else(userGuess==rndNumber && attempts==1){ //Caleb only one attempts
   Console.WriteLine(" Congrats you got it right, and in one guess. Wow your either super lucky, or did you possibly cheat. ")
 break;
 }
-if else(userGuess==rndNumber && attempts==2){//Caleb
+if else(userGuess==rndNumber && attempts==2){//Caleb 2 attempts
   Console.WriteLine(" Congrats you got it right. You only did it in two guesses.Not as good as one, but still great ");
 break;
 }
-if else(userGuess==rndNumber && attempts==3){//Caleb
+if else(userGuess==rndNumber && attempts==3){//Caleb 3 attempts
   Console.WriteLine(" Three guesses is still lucky. Especially with how many numbers you had to guess from. ");
 break;
 }
-if else(userGuess==rndNumber && attempts==4){//Caleb
+if else(userGuess==rndNumber && attempts==4){//Caleb 4 attempts made
   Console.WriteLine(" Oh four guesses you must of really been racking your brain for that one ");
 break;
 }
-if else(userGuess==rndNumber && attempts==5){//Caleb
+if else(userGuess==rndNumber && attempts==5){//Caleb 5 attempts made
   Console.WriteLine(" Five guesses you really are just passing this game. Better luck next time. ");
 break;
 }

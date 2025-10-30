@@ -1,6 +1,6 @@
 using System;
-Random rnd = new Random()
-int rndNumber 
+Random rnd = new Random();
+int rndNumber = rnd.Next(1,100);
 namespace ProjectFile
 {
   class Program
